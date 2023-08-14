@@ -9,4 +9,5 @@ public interface ReportsRepository extends JpaRepository<Reports, Long> {
 
     Reports getReportsByReportID(Long reportID);
 
+
 }
